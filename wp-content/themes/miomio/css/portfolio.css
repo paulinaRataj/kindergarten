@@ -1,0 +1,328 @@
+.ff-container{
+    /* margin-left: -0.9375em;
+    margin-right: -0.9375em; */
+}
+.ff-container label{
+	float:left;
+    font-size:1em;
+    padding: .4em .5em;
+}
+.ff-container label.ff-label-type-all{
+
+}
+.ff-container label.ff-label-type-3{
+
+}
+.ff-container input.ff-selector-type-all:checked ~ label.ff-label-type-all,
+.ff-container input.ff-selector-type-1:checked ~ label.ff-label-type-1,
+.ff-container input.ff-selector-type-2:checked ~ label.ff-label-type-2,
+.ff-container input.ff-selector-type-3:checked ~ label.ff-label-type-3,
+.ff-container input.ff-selector-type-4:checked ~ label.ff-label-type-4,
+.ff-container input.ff-selector-type-5:checked ~ label.ff-label-type-5,
+.ff-container input.ff-selector-type-6:checked ~ label.ff-label-type-6,
+.ff-container input.ff-selector-type-7:checked ~ label.ff-label-type-7,
+.ff-container input.ff-selector-type-8:checked ~ label.ff-label-type-8,
+.ff-container input.ff-selector-type-9:checked ~ label.ff-label-type-9,
+.ff-container input.ff-selector-type-10:checked ~ label.ff-label-type-10,
+.ff-container input.ff-selector-type-11:checked ~ label.ff-label-type-11,
+.ff-container input.ff-selector-type-12:checked ~ label.ff-label-type-12,
+.ff-container input.ff-selector-type-13:checked ~ label.ff-label-type-13,
+.ff-container input.ff-selector-type-14:checked ~ label.ff-label-type-14,
+.ff-container input.ff-selector-type-15:checked ~ label.ff-label-type-15,
+.ff-container input.ff-selector-type-16:checked ~ label.ff-label-type-16,
+.ff-container input.ff-selector-type-17:checked ~ label.ff-label-type-17,
+.ff-container input.ff-selector-type-18:checked ~ label.ff-label-type-18,
+.ff-container input.ff-selector-type-19:checked ~ label.ff-label-type-19,
+.ff-container input.ff-selector-type-20:checked ~ label.ff-label-type-20,
+.ff-container input.ff-selector-type-21:checked ~ label.ff-label-type-21,
+.ff-container input.ff-selector-type-22:checked ~ label.ff-label-type-22,
+.ff-container input.ff-selector-type-23:checked ~ label.ff-label-type-23,
+.ff-container input.ff-selector-type-24:checked ~ label.ff-label-type-24,
+.ff-container input.ff-selector-type-25:checked ~ label.ff-label-type-25,
+.ff-container input.ff-selector-type-26:checked ~ label.ff-label-type-26,
+.ff-container input.ff-selector-type-27:checked ~ label.ff-label-type-27,
+.ff-container input.ff-selector-type-28:checked ~ label.ff-label-type-28,
+.ff-container input.ff-selector-type-29:checked ~ label.ff-label-type-29,
+.ff-container input.ff-selector-type-30:checked ~ label.ff-label-type-30
+{
+    background: #672d82;
+    color:#fff;
+}
+.ff-container input{
+	display: none;
+}
+.ff-items{
+	position: relative;
+	margin: 0px auto;
+	padding-top: 20px;
+}
+.ff-items a{
+	display: block;
+	position: relative;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	margin: 4px;
+}
+.ff-items a span{
+    display: block;
+    background: rgba(94, 62, 151, 0.7);
+    color: #fff;
+    font-size: 1.2em;
+    padding: 8px;
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0;
+    text-align: center;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.ff-items a:hover span{
+    bottom:0px;
+	opacity: 1;
+}
+.ff-items li img{
+	display: block;
+    width: 100%;
+    height: auto;
+}
+
+.ff-items li{
+	margin: 0px;
+	float: left;
+	width: 0px;
+	-webkit-transform: scale(0,0);
+	-moz-transform: scale(0,0);
+	-o-transform: scale(0,0);
+	-ms-transform: scale(0,0);
+	transform: scale(0,0);
+}
+.ff-container input.ff-selector-type-all:checked ~ .ff-items li{
+    width: 33.3%;
+	-webkit-transform: scale(1,1);
+	-moz-transform: scale(1,1);
+	-o-transform: scale(1,1);
+	-ms-transform: scale(1,1);
+	transform: scale(1,1);
+	-webkit-transition: -webkit-transform 0.2s linear;
+	-o-transition: -o-transform 0.2s linear;
+	-ms-transition: -ms-transform 0.2s linear;
+	transition: transform 0.2s linear;
+}
+.ff-container input.ff-selector-type-1:checked ~ .ff-items .ff-item-type-1,
+.ff-container input.ff-selector-type-2:checked ~ .ff-items .ff-item-type-2,
+.ff-container input.ff-selector-type-3:checked ~ .ff-items .ff-item-type-3,
+.ff-container input.ff-selector-type-4:checked ~ .ff-items .ff-item-type-4,
+.ff-container input.ff-selector-type-5:checked ~ .ff-items .ff-item-type-5,
+.ff-container input.ff-selector-type-6:checked ~ .ff-items .ff-item-type-6,
+.ff-container input.ff-selector-type-7:checked ~ .ff-items .ff-item-type-7,
+.ff-container input.ff-selector-type-8:checked ~ .ff-items .ff-item-type-8,
+.ff-container input.ff-selector-type-9:checked ~ .ff-items .ff-item-type-9,
+.ff-container input.ff-selector-type-10:checked ~ .ff-items .ff-item-type-10,
+.ff-container input.ff-selector-type-11:checked ~ .ff-items .ff-item-type-11,
+.ff-container input.ff-selector-type-12:checked ~ .ff-items .ff-item-type-12,
+.ff-container input.ff-selector-type-13:checked ~ .ff-items .ff-item-type-13,
+.ff-container input.ff-selector-type-14:checked ~ .ff-items .ff-item-type-14,
+.ff-container input.ff-selector-type-15:checked ~ .ff-items .ff-item-type-15,
+.ff-container input.ff-selector-type-16:checked ~ .ff-items .ff-item-type-16,
+.ff-container input.ff-selector-type-17:checked ~ .ff-items .ff-item-type-17,
+.ff-container input.ff-selector-type-18:checked ~ .ff-items .ff-item-type-18,
+.ff-container input.ff-selector-type-19:checked ~ .ff-items .ff-item-type-19,
+.ff-container input.ff-selector-type-20:checked ~ .ff-items .ff-item-type-20,
+.ff-container input.ff-selector-type-21:checked ~ .ff-items .ff-item-type-21,
+.ff-container input.ff-selector-type-22:checked ~ .ff-items .ff-item-type-22,
+.ff-container input.ff-selector-type-23:checked ~ .ff-items .ff-item-type-23,
+.ff-container input.ff-selector-type-24:checked ~ .ff-items .ff-item-type-24,
+.ff-container input.ff-selector-type-25:checked ~ .ff-items .ff-item-type-25,
+.ff-container input.ff-selector-type-26:checked ~ .ff-items .ff-item-type-26,
+.ff-container input.ff-selector-type-27:checked ~ .ff-items .ff-item-type-27,
+.ff-container input.ff-selector-type-28:checked ~ .ff-items .ff-item-type-28,
+.ff-container input.ff-selector-type-29:checked ~ .ff-items .ff-item-type-29,
+.ff-container input.ff-selector-type-30:checked ~ .ff-items .ff-item-type-30
+{
+    width: 33.3%;
+	-webkit-transition: -webkit-transform 0.2s linear, width 0s linear 0.2s;
+	-moz-transition: -moz-transform 0.2s linear, width 0s linear 0.2s;
+	-o-transition: -o-transform 0.2s linear, width 0s linear 0.2s;
+	-ms-transition: -ms-transform 0.2s linear, width 0s linear 0.2s;
+	transition: transform 0.2s linear, width 0s linear 0.2s;
+	-webkit-animation: scaleUp 0.2s linear 0.4s forwards;
+	-moz-animation: scaleUp 0.2s linear 0.4s forwards;
+	-o-animation: scaleUp 0.2s linear 0.4s forwards;
+	-ms-animation: scaleUp 0.2s linear 0.4s forwards;
+	animation: scaleUp 0.2s linear 0.4s forwards;
+}
+.ff-container input.ff-selector-type-1:checked ~ .ff-items li:not(.ff-item-type-1),
+.ff-container input.ff-selector-type-2:checked ~ .ff-items li:not(.ff-item-type-2),
+.ff-container input.ff-selector-type-3:checked ~ .ff-items li:not(.ff-item-type-3),
+.ff-container input.ff-selector-type-4:checked ~ .ff-items li:not(.ff-item-type-4),
+.ff-container input.ff-selector-type-5:checked ~ .ff-items li:not(.ff-item-type-5),
+.ff-container input.ff-selector-type-6:checked ~ .ff-items li:not(.ff-item-type-6),
+.ff-container input.ff-selector-type-7:checked ~ .ff-items li:not(.ff-item-type-7),
+.ff-container input.ff-selector-type-8:checked ~ .ff-items li:not(.ff-item-type-8),
+.ff-container input.ff-selector-type-9:checked ~ .ff-items li:not(.ff-item-type-9),
+.ff-container input.ff-selector-type-10:checked ~ .ff-items li:not(.ff-item-type-10),
+.ff-container input.ff-selector-type-11:checked ~ .ff-items li:not(.ff-item-type-11),
+.ff-container input.ff-selector-type-12:checked ~ .ff-items li:not(.ff-item-type-12),
+.ff-container input.ff-selector-type-13:checked ~ .ff-items li:not(.ff-item-type-13),
+.ff-container input.ff-selector-type-14:checked ~ .ff-items li:not(.ff-item-type-14),
+.ff-container input.ff-selector-type-15:checked ~ .ff-items li:not(.ff-item-type-15),
+.ff-container input.ff-selector-type-16:checked ~ .ff-items li:not(.ff-item-type-16),
+.ff-container input.ff-selector-type-17:checked ~ .ff-items li:not(.ff-item-type-17),
+.ff-container input.ff-selector-type-18:checked ~ .ff-items li:not(.ff-item-type-18),
+.ff-container input.ff-selector-type-19:checked ~ .ff-items li:not(.ff-item-type-19),
+.ff-container input.ff-selector-type-20:checked ~ .ff-items li:not(.ff-item-type-20),
+.ff-container input.ff-selector-type-21:checked ~ .ff-items li:not(.ff-item-type-21),
+.ff-container input.ff-selector-type-22:checked ~ .ff-items li:not(.ff-item-type-22),
+.ff-container input.ff-selector-type-23:checked ~ .ff-items li:not(.ff-item-type-23),
+.ff-container input.ff-selector-type-24:checked ~ .ff-items li:not(.ff-item-type-24),
+.ff-container input.ff-selector-type-25:checked ~ .ff-items li:not(.ff-item-type-25),
+.ff-container input.ff-selector-type-26:checked ~ .ff-items li:not(.ff-item-type-26),
+.ff-container input.ff-selector-type-27:checked ~ .ff-items li:not(.ff-item-type-27),
+.ff-container input.ff-selector-type-28:checked ~ .ff-items li:not(.ff-item-type-28),
+.ff-container input.ff-selector-type-29:checked ~ .ff-items li:not(.ff-item-type-29),
+.ff-container input.ff-selector-type-30:checked ~ .ff-items li:not(.ff-item-type-30)
+{
+	-webkit-animation: scaleDown 0.2s linear forwards;
+	-moz-animation: scaleDown 0.2s linear forwards;
+	-o-animation: scaleDown 0.2s linear forwards;
+	-ms-animation: scaleDown 0.2s linear forwards;
+	animation: scaleDown 0.2s linear forwards;
+}
+@-webkit-keyframes scaleUp {
+	50% { width: 33.3%; -webkit-transform: scale(0,0); }
+    100% { width: 33.3%; -webkit-transform: scale(1,1); }
+}
+@-webkit-keyframes scaleDown {
+	0% { width: 33.3%;-webkit-transform: scale(1,1);}
+	99% { width: 33.3%; -webkit-transform: scale(0,0);}
+    100% { width: 0px; -webkit-transform: scale(0,0); }
+}
+@-moz-keyframes scaleUp {
+	50% { width: 33.3%; -moz-transform: scale(0,0); }
+    100% { width: 33.3%; -moz-transform: scale(1,1); }
+}
+@-moz-keyframes scaleDown {
+	0% { width: 33.3%; -moz-transform: scale(1,1);}
+	99% { width: 33.3%; -moz-transform: scale(0,0);}
+    100% { width: 33.3%; -moz-transform: scale(0,0); }
+}
+@-o-keyframes scaleUp {
+	50% { width: 33.3%; -o-transform: scale(0,0); }
+    100% { width: 33.3%; -o-transform: scale(1,1); }
+}
+@-o-keyframes scaleDown {
+	0% { width: 33.3%; -o-transform: scale(1,1);}
+	99% { width: 33.3%; -o-transform: scale(0,0);}
+    100% { width: 0px; -o-transform: scale(0,0); }
+}
+@-ms-keyframes scaleUp {
+	50% { width: 33.3%; -ms-transform: scale(0,0); }
+    100% { width: 33.3%; -ms-transform: scale(1,1); }
+}
+@-ms-keyframes scaleDown {
+	0% { width: 33.3%;-ms-transform: scale(1,1);}
+	99% { width: 33.3%; -ms-transform: scale(0,0);}
+    100% { width: 0px; -ms-transform: scale(0,0); }
+}
+@keyframes scaleUp {
+	50% { width: 33.3%; transform: scale(0,0); }
+    100% { width: 33.3%; transform: scale(1,1); }
+}
+@keyframes scaleDown {
+	0% { width: 33.3%; transform: scale(1,1);}
+	99% { width: 33.3%; transform: scale(0,0);}
+    100% { width: 0px; transform: scale(0,0); }
+}
+
+@media only screen and (max-width: 40.063em) { 
+
+	.ff-container input.ff-selector-type-all:checked ~ .ff-items li{
+    width: 50%;
+}
+.ff-container input.ff-selector-type-1:checked ~ .ff-items .ff-item-type-1,
+.ff-container input.ff-selector-type-2:checked ~ .ff-items .ff-item-type-2,
+.ff-container input.ff-selector-type-3:checked ~ .ff-items .ff-item-type-3,
+.ff-container input.ff-selector-type-4:checked ~ .ff-items .ff-item-type-4,
+.ff-container input.ff-selector-type-5:checked ~ .ff-items .ff-item-type-5,
+.ff-container input.ff-selector-type-6:checked ~ .ff-items .ff-item-type-6,
+.ff-container input.ff-selector-type-7:checked ~ .ff-items .ff-item-type-7,
+.ff-container input.ff-selector-type-8:checked ~ .ff-items .ff-item-type-8,
+.ff-container input.ff-selector-type-9:checked ~ .ff-items .ff-item-type-9,
+.ff-container input.ff-selector-type-10:checked ~ .ff-items .ff-item-type-10,
+.ff-container input.ff-selector-type-11:checked ~ .ff-items .ff-item-type-11,
+.ff-container input.ff-selector-type-12:checked ~ .ff-items .ff-item-type-12,
+.ff-container input.ff-selector-type-13:checked ~ .ff-items .ff-item-type-13,
+.ff-container input.ff-selector-type-14:checked ~ .ff-items .ff-item-type-14,
+.ff-container input.ff-selector-type-15:checked ~ .ff-items .ff-item-type-15,
+.ff-container input.ff-selector-type-16:checked ~ .ff-items .ff-item-type-16,
+.ff-container input.ff-selector-type-17:checked ~ .ff-items .ff-item-type-17,
+.ff-container input.ff-selector-type-18:checked ~ .ff-items .ff-item-type-18,
+.ff-container input.ff-selector-type-19:checked ~ .ff-items .ff-item-type-19,
+.ff-container input.ff-selector-type-20:checked ~ .ff-items .ff-item-type-20,
+.ff-container input.ff-selector-type-21:checked ~ .ff-items .ff-item-type-21,
+.ff-container input.ff-selector-type-22:checked ~ .ff-items .ff-item-type-22,
+.ff-container input.ff-selector-type-23:checked ~ .ff-items .ff-item-type-23,
+.ff-container input.ff-selector-type-24:checked ~ .ff-items .ff-item-type-24,
+.ff-container input.ff-selector-type-25:checked ~ .ff-items .ff-item-type-25,
+.ff-container input.ff-selector-type-26:checked ~ .ff-items .ff-item-type-26,
+.ff-container input.ff-selector-type-27:checked ~ .ff-items .ff-item-type-27,
+.ff-container input.ff-selector-type-28:checked ~ .ff-items .ff-item-type-28,
+.ff-container input.ff-selector-type-29:checked ~ .ff-items .ff-item-type-29,
+.ff-container input.ff-selector-type-30:checked ~ .ff-items .ff-item-type-30
+{
+    width: 50%;
+}
+@-webkit-keyframes scaleUp {
+	50% { width: 50%; -webkit-transform: scale(0,0); }
+    100% { width: 50%; -webkit-transform: scale(1,1); }
+}
+@-webkit-keyframes scaleDown {
+	0% { width: 50%;-webkit-transform: scale(1,1);}
+	99% { width: 50%; -webkit-transform: scale(0,0);}
+    100% { width: 0px; -webkit-transform: scale(0,0); }
+}
+@-moz-keyframes scaleUp {
+	50% { width: 50%; -moz-transform: scale(0,0); }
+    100% { width: 50%; -moz-transform: scale(1,1); }
+}
+@-moz-keyframes scaleDown {
+	0% { width: 50%; -moz-transform: scale(1,1);}
+	99% { width: 50%; -moz-transform: scale(0,0);}
+    100% { width: 50%; -moz-transform: scale(0,0); }
+}
+@-o-keyframes scaleUp {
+	50% { width: 50%; -o-transform: scale(0,0); }
+    100% { width: 50%; -o-transform: scale(1,1); }
+}
+@-o-keyframes scaleDown {
+	0% { width: 50%; -o-transform: scale(1,1);}
+	99% { width: 50%; -o-transform: scale(0,0);}
+    100% { width: 0px; -o-transform: scale(0,0); }
+}
+@-ms-keyframes scaleUp {
+	50% { width: 50%; -ms-transform: scale(0,0); }
+    100% { width: 50%; -ms-transform: scale(1,1); }
+}
+@-ms-keyframes scaleDown {
+	0% { width: 50%;-ms-transform: scale(1,1);}
+	99% { width: 50%; -ms-transform: scale(0,0);}
+    100% { width: 0px; -ms-transform: scale(0,0); }
+}
+@keyframes scaleUp {
+	50% { width: 50%; transform: scale(0,0); }
+    100% { width: 50%; transform: scale(1,1); }
+}
+@keyframes scaleDown {
+	0% { width: 50%; transform: scale(1,1);}
+	99% { width: 50%; transform: scale(0,0);}
+    100% { width: 0px; transform: scale(0,0); }
+}
+
+
+}
