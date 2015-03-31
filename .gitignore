@@ -14,6 +14,9 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+# Wordpress ignored files
+
+
 # Windows shortcuts
 *.lnk
 
